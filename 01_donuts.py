@@ -1,3 +1,4 @@
+# -- coding: utf-8 -- #
 """
 01. donuts
 
@@ -10,8 +11,7 @@ e donuts(23) retorna 'Number of donuts: many'
 """
 
 def donuts(count):
-    # +++ SUA SOLUÇÃO +++
-    return
+    return 'Number of donuts: '+(str(count) if count < 10 else 'many')
 
 
 # --- Daqui para baixo são apenas códigos auxiliáries de teste. ---
